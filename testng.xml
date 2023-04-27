@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/EpamIndividualProject/src/test/java/org/example/PasteBin.java">
+        <classes>
+            <class name="org.example.PasteBin">
+                <methods>
+                    <include name="PasteBin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/EpamIndividualProject/src/test/java/org/example/GoogleCloud.java">
+        <classes>
+            <class name="org.example.GoogleCloud">
+                <methods>
+                    <include name="GoogleCloud"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
